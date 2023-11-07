@@ -2,6 +2,8 @@ cp ./.bashrc /home/$USER/.bashrc
 
 sudo pacman -S terminator
 sudo pacman -S polybar
+mkdir /etc/polybar
+sudo cp ./config.ini /etc/polybar
 
 mkdir /home/$USER/.wallpapers
 cp ./archbtw.png /home/sockterx/.wallpapers/
@@ -23,3 +25,5 @@ sudo pacman -S ttf-font-awesome
 sudo pacman -S debtap
 
 curl https://zlibrary-asia.se/soft/zlibrary-setup-latest.deb --output zlib.deb
+
+sudo pacman -S discord
