@@ -1,5 +1,7 @@
 cp ./.bashrc /home/$USER/.bashrc
 
+cp ./i3/config /home/$USER/.config/i3
+
 sudo pacman -S terminator
 sudo pacman -S polybar
 mkdir /etc/polybar
