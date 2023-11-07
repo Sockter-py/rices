@@ -21,6 +21,9 @@ cd ..
 
 sudo pacman -S pcmanfm
 sudo pacman -S ranger
+
+cp ./ranger/rc.conf /home/$USER/.config/
+
 sudo pacman -S ttf-font-awesome
 sudo pacman -S debtap
 
