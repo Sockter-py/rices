@@ -31,4 +31,11 @@ sudo pacman -S debtap
 
 curl https://zlibrary-asia.se/soft/zlibrary-setup-latest.deb --output zlib.deb
 
+sudo pacman -S cups
+sudo systemctl enable --now cups
+sudo pacman -S hplip
+sudo hp-setup -i
+sudo pacman -S system-config-printer
+#sudo pacman -S gtk3-print-backends
+
 sudo pacman -S discord
