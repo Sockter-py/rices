@@ -41,5 +41,7 @@ sudo hp-setup -i
 sudo pacman -S system-config-printer
 #sudo pacman -S gtk3-print-backends
 
+yay vlc-git
+
 sudo pacman -S calibre
 sudo pacman -S discord
