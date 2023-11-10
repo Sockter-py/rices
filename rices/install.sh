@@ -43,5 +43,7 @@ sudo pacman -S system-config-printer
 
 yay vlc-git
 
+sudo pacman -Syu rofi
+
 sudo pacman -S calibre
 sudo pacman -S discord
