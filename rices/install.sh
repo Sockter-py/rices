@@ -11,7 +11,7 @@ mkdir /home/$USER/.wallpapers
 cp ./archbtw.png /home/sockterx/.wallpapers/
 
 sudo pacman -S nitrogen
-nitrogen /home/sockterx/.wallpapers/archbtw.png
+nitrogen --set-scale /home/sockterx/.wallpapers/archbtw.png
 sudo pacman -S install firefox
 sudo pacman -S install nano
 sudo pacman -S materia-gtk-theme
